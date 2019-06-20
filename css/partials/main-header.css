@@ -1,0 +1,47 @@
+@media (min-width: 320px) {
+  .main-header {
+    background-color: #fff; }
+    .main-header .container {
+      width: 100%;
+      display: flex;
+      justify-content: space-between; }
+    .main-header .left-content {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center; }
+      .main-header .left-content .hamburger {
+        width: 14px;
+        height: 9px;
+        margin-left: 5px; }
+        .main-header .left-content .hamburger span {
+          display: block;
+          width: 14px;
+          height: 3px;
+          background-color: #7AC8D7;
+          border-radius: 8px;
+          margin-bottom: 3px; }
+      .main-header .left-content h1 {
+        margin: 5px 0 0 10px;
+        font-size: 16px; }
+        .main-header .left-content h1 a {
+          text-decoration: none;
+          font-size: 16px;
+          font-weight: bold;
+          color: #333333; }
+          .main-header .left-content h1 a span {
+            color: #7AC8D7; }
+    .main-header .right-content {
+      display: flex; }
+      .main-header .right-content .input-group {
+        position: relative;
+        margin-right: 5px; }
+        .main-header .right-content .input-group input {
+          border: none;
+          border-bottom: 1px solid #ddd; }
+        .main-header .right-content .input-group img {
+          position: absolute;
+          right: 5px;
+          top: 5px; }
+      .main-header .right-content .korpa {
+        margin-right: 10px;
+        margin-top: 2px; } }

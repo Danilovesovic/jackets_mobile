@@ -1,0 +1,11 @@
+@media (min-width: 320px) {
+  .top-text {
+    text-align: center; }
+    .top-text h2 {
+      font-size: 30px;
+      text-align: center;
+      color: #7AC8D7;
+      margin-bottom: 15px; }
+    .top-text p {
+      padding: 10px;
+      color: #999999; } }
